@@ -1,0 +1,21 @@
+---
+---
+
+/* Override theme colors */
+$primary-color: #0004ff;  /* Blue */
+$secondary-color: #ffdd00;  /* Yellow */
+
+/* Apply custom styles */
+body {
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+
+a {
+    color: $primary-color;
+}
+
+header, footer {
+    background-color: $primary-color;
+    color: $secondary-color;
+}
