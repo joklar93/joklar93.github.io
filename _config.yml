@@ -1,7 +1,7 @@
-title: joklar93 homepage
+title: Dataman Calculator
 description: GitHub Pages example for promoting a project
 github_username: joklar93
-remote_theme: pages-themes/merlot@v0.2.0
+remote_theme: pages-themes/tactile@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
