@@ -1,21 +1,32 @@
 ---
+
 ---
 
-/* Override theme colors */
-$primary-color: #0004ff;  /* Blue */
-$secondary-color: #ffdd00;  /* Yellow */
 
-/* Apply custom styles */
-body {
-    background-color: $primary-color;
-    color: $secondary-color;
+$primary-color: #007bff;  
+$secondary-color: #ffdd00;  
+
+
+.header {
+    background-color: $primary-color; 
+    color: $secondary-color;           
+}
+
+.footer {
+    background-color: $primary-color; 
+    color: $secondary-color;           
 }
 
 a {
-    color: $primary-color;
+    color: $primary-color; 
 }
 
-header, footer {
-    background-color: $primary-color;
-    color: $secondary-color;
+h1, h2, h3, h4, h5, h6 {
+    color: $secondary-color; 
+}
+
+
+.button {
+    background-color: $primary-color; 
+    color: $secondary-color;           
 }
