@@ -1,0 +1,20 @@
+/* Override primary theme colors */
+:root {
+  --color-primary: #007bff; /* Blue */
+  --color-secondary: #ffdd00; /* Yellow */
+}
+
+/* Custom styles */
+body {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+header, footer {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
